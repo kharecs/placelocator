@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="app_name">statpro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+	 <string name="country_prompt">Choose a type of place</string>
+    <string-array name="source_a">
+        <item>school</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>cafe</item>
+        <item>movie_theater</item>
+        <item>train_station</item>
+        <item>store</item>
+        <item>hospital</item>
+        <item>gym</item>
+        <item>accounting</item>
+        <item>atm</item>
+        <item>bakery</item>
+        <item>book_store</item>
+        <item>car_dealer</item>
+        <item>church</item>
+        <item>clothing_store</item>
+        <item>courthouse</item>
+        <item>doctor</item>
+        
+        <item>fire_station</item>
+        <item>food</item>
+        <item>hindu_temple</item>
+        <item>jewelry_store</item>
+        <item>laundry</item>
+        <item>lawyer</item>
+        <item>library</item>
+        <item>liquor_store</item>
+        <item>lodging</item>
+        <item>police</item>
+        <item>post_office</item>
+        <item>restaurant</item>
+        <item>shoe_store</item>
+        <item>university</item>
+        
+    </string-array>
+</resources>   

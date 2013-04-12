@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Google Maps JavaScript API v3 Example: Place Search</title>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true&libraries=places"></script>
+    <style>
+     html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100%;
+}
+    </style>
+
+    <script>
+      var map;
+      var infowindow;
+
+      function initialize() {
+        var pyrmont = new google.maps.LatLng(18.5236, 73.8478);
+
+        map = new google.maps.Map(document.getElementById('map'), {
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          center: pyrmont,
+          zoom: 15
+        });
+
+        var request = {
+          location: pyrmont,
+          radius: 500,
+          types: ['

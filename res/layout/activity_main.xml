@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<Spinner
+    android:id="@+id/sp1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="33dp"
+    android:entries="@array/source_a"
+    android:prompt="@string/country_prompt" />
+
+
+<Button
+    android:id="@+id/b1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/sp2"
+    android:layout_marginTop="400dp"
+    android:text="Submit" />
+
+</RelativeLayout>
